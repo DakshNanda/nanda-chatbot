@@ -1,0 +1,7 @@
+﻿services:
+  - type: web
+    name: nanda-chatbot
+    env: python
+    buildCommand: "cd static/frontend && npm install && npm run build"
+    startCommand: "python app.py"
+    plan: free
