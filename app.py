@@ -11,7 +11,8 @@ qa_pairs = {
     "Where are you located?": "Our headquarters are in Chennai, Tamil Nadu.",
     "Do you offer international shipping?": "Yes, we ship to over 50 countries worldwide.",
     "How can I apply for a job?": "Visit our Careers page and submit your resume.",
-    "What products do you specialize in?": "We specialize in eco-friendly packaging solutions."
+    "What products do you specialize in?": "We specialize in eco-friendly packaging solutions.",
+    "Who is your CEO?" : "Aditya Nanda is our CEO."
 }
 
 @app.route('/query', methods=['POST'])
