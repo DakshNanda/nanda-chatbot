@@ -7,19 +7,19 @@ CORS(app)
 
 # Define Q&A pairs directly in code
 qa_pairs = {
-    "What are your business hours?": "We operate from 9 AM to 6 PM, Monday to Saturday.",
-    "Where are you located?": "Our headquarters are in Chennai, Tamil Nadu.",
-    "Do you offer international shipping?": "Yes, we ship to over 50 countries worldwide.",
-    "How can I apply for a job?": "Visit our Careers page and submit your resume.",
-    "What products do you specialize in?": "We specialize in eco-friendly packaging solutions.",
-    "Who is your CEO?" : "Aditya Nanda is our CEO."
+    "What are your business hours?": "Monday to Friday, 9:00 AM – 6:00 PM IST.",
+    "Where are you located?": "Headquartered in India, with operations managed remotely.",
+    "Do you offer international shipping?": "Not applicable. Kyzo AI is a SaaS company; its AI voice agent services are delivered digitally worldwide.",
+    "How can I apply for a job?": "Applications can be submitted through the company’s website contact form or via LinkedIn.",
+    "What products do you specialize in?": "AI-powered voice agents for outbound calling, mainly serving real estate, banking, and insurance industries.",
+    "Who is your CEO?": "The CEO of Kyzo AI is Parwaan Virk."
 }
 
 @app.route('/query', methods=['POST'])
 def query():
     data = request.get_json()
     question = data.get('question', '').strip()
-    answer = qa_pairs.get(question, "A supervisor will contact you soon")
+    answer = qa_pairs.get(question, "A customer service executive will contact you soon")
     return jsonify({'answer': answer})
 
 # Serve React frontend
