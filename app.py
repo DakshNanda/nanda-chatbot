@@ -104,7 +104,6 @@ qa_pairs = {
     "Hello": "Hello! 👋 Welcome to Kyzo.AI. How can I assist you today?",
     "How are you?": "I’m doing great, thank you for asking! How about you?",
     "What’s your name?": "I’m your friendly chatbot assistant Nova 🤖",
-    "Are you human?": "Nope, I’m a chatbot built to help you with your questions.",
     "What can you do?": "I can answer your questions, guide you with information, and help you with common tasks.",
     "I need help": "Sure! Can you tell me what you need help with?",
     "How does this work?": "You can type your questions here, and I’ll give you answers or guide you step by step.",
@@ -137,6 +136,7 @@ qa_pairs = {
     "Can I cancel anytime?": "Yes, you can cancel your subscription anytime from your account dashboard.",
     "Do you offer refunds?": "Refunds are handled on a case-by-case basis as per our refund policy.",
     "Tell me why": "Ain't nothing but a heartache...",
+    "Are you human?" : "I’m your friendly digital assistant 🤖 here to help you with Kyzo.AI's services.",
     "Which is the best football team in the world?": "The Arsenal of course. COYG!!!!"
 }
 
